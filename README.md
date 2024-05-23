@@ -10,20 +10,20 @@ Identify what types of tasks and jobs are most likely to see the biggest impact 
 
 ## Methodology
 
-* Article clean-up and filtering
-  Regular expression
-  Lemmatization	
-* Topic detection
+* Article clean-up and filtering:
+  ** Regular expression
+  ** Lemmatization	
+* Topic detection：
   LDA using ktrain
   BERTopic
-* Sentiment analysis (explicitly customized)
+* Sentiment analysis (explicitly customized)：
   SpaCy
   Customized Yelp Logistic Model
-* Entity Identification
+* Entity Identification：
   SpaCy
   Regular expression
   Named Entity Recognition (NER)
-* Targeted sentiment identification
+* Targeted sentiment identification：
   SpaCy
   NER
   Word Cloud Chart
